@@ -34,6 +34,7 @@ public class AuthenticationController {
             customerRepository.save(customer);
         } catch (Exception e) {
             throw new RuntimeException(e);
+            
         }
     }
 
