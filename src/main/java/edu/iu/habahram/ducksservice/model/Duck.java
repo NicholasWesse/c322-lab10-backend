@@ -1,6 +1,8 @@
 package edu.iu.habahram.ducksservice.model;
 
 public abstract class Duck {
+
+
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;
 
@@ -9,8 +11,6 @@ public abstract class Duck {
     private DuckType type;
 
     public Duck(int id, DuckType type) {
-        this.id = id;
-        this.type = type;
     }
 
     public FlyBehavior getFlyBehavior() {
